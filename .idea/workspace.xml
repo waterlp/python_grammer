@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38368794-17be-4fd0-a745-ac360e16a8b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/internet_tcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internet_tcp_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internet_udp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internet_udp_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regular_expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socketServer_tcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socketServer_tcp_client1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socketServer_tcp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socketServer_tcp_server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internet_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internet_client/ftp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internet_client/nntp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcp_udp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcp_udp/twisted_tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tcp_udp/twisted_tcp_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet_tcp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/internet_tcp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet_tcp_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/internet_tcp_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet_udp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/internet_udp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet_udp_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/internet_udp_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketServer_tcp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/socketServer_tcp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketServer_tcp_client1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/socketServer_tcp_client1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketServer_tcp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/socketServer_tcp_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketServer_tcp_server1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_udp/socketServer_tcp_server1_error.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +26,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server1.coverage" NAME="socketServer_tcp_server1 Coverage Results" MODIFIED="1565947989136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server.coverage" NAME="socketServer_tcp_server Coverage Results" MODIFIED="1565948601036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$test.coverage" NAME="test Coverage Results" MODIFIED="1566196104313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server1.coverage" NAME="socketServer_tcp_server1 Coverage Results" MODIFIED="1566178689302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server.coverage" NAME="socketServer_tcp_server Coverage Results" MODIFIED="1566178616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$twisted_tcp_server.coverage" NAME="twisted_tcp_server Coverage Results" MODIFIED="1566185561421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_grammer$regular_expression.coverage" NAME="regular_expression Coverage Results" MODIFIED="1565940478876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_grammer$internet_develop_service.coverage" NAME="internet_develop_service Coverage Results" MODIFIED="1565942627255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$nntp_client.coverage" NAME="nntp_client Coverage Results" MODIFIED="1566203018235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/internet_client" />
+    <SUITE FILE_PATH="coverage/study_grammer$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1566201287234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/internet_client" />
     <SUITE FILE_PATH="coverage/study_grammer$internet_develop_client.coverage" NAME="internet_develop_client Coverage Results" MODIFIED="1565942580125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -33,29 +44,30 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="19" />
-          <entry key="py" value="901" />
+          <entry key="dummy" value="28" />
+          <entry key="py" value="1317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="901" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="1317" />
         </counts>
       </usages-collector>
     </session>
@@ -65,17 +77,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regular_expression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="616">
               <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socketServer_tcp_server.py">
+        <entry file="file://$PROJECT_DIR$/internet_client/ftp_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="200">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="e#38#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/internet_client/nntp_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp_udp/twisted_tcp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#45#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp_udp/socketServer_tcp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="67" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
               </folding>
@@ -83,20 +131,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socketServer_tcp_client.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/program/python/Lib/site-packages/twisted/internet/tcp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="28">
+              <caret line="1352" column="43" selection-start-line="1352" selection-start-column="43" selection-end-line="1352" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socketServer_tcp_client1.py">
+        <entry file="file://$PROJECT_DIR$/tcp_udp/twisted_tcp_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state>
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -129,8 +186,13 @@
         <option value="$PROJECT_DIR$/internet_udp_client.py" />
         <option value="$PROJECT_DIR$/socketServer_tcp_server1.py" />
         <option value="$PROJECT_DIR$/socketServer_tcp_client1.py" />
-        <option value="$PROJECT_DIR$/socketServer_tcp_server.py" />
         <option value="$PROJECT_DIR$/socketServer_tcp_client.py" />
+        <option value="$PROJECT_DIR$/socketServer_tcp_server.py" />
+        <option value="$PROJECT_DIR$/twisted_tcp_client.py" />
+        <option value="$PROJECT_DIR$/twisted_tcp_server.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/internet_client/ftp_client.py" />
+        <option value="$PROJECT_DIR$/internet_client/nntp_client.py" />
       </list>
     </option>
   </component>
@@ -142,9 +204,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
-    <option name="y" value="520" />
+    <option name="y" value="377" />
     <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -157,6 +219,11 @@
             <path>
               <item name="study_grammer" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_grammer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_grammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_grammer" type="462c0819:PsiDirectoryNode" />
+              <item name="internet_client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,6 +240,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\gitrepository\study_grammer\tcp_udp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python\gitrepository\study_grammer" />
     </key>
@@ -189,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.socketServer_tcp_server">
-    <configuration name="internet_develop_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.nntp_client">
+    <configuration name="ftp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,12 +268,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/internet_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python\gitrepository\study_grammer\internet_tcp_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/internet_client/ftp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="internet_develop_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nntp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,56 +290,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/internet_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python\gitrepository\study_grammer\internet_tcp_service.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="regular_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_grammer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regular_expression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="socketServer_tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_grammer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socketServer_tcp_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/internet_client/nntp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +317,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socketServer_tcp_server1.py" />
+      <option name="SCRIPT_NAME" value="E:\python\gitrepository\study_grammer\tcp_udp\socketServer_tcp_server1_error.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_grammer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="twisted_tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_grammer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python\gitrepository\study_grammer\tcp_udp\twisted_tcp_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.regular_expression" />
-      <item itemvalue="Python.internet_develop_service" />
-      <item itemvalue="Python.internet_develop_client" />
-      <item itemvalue="Python.socketServer_tcp_server" />
       <item itemvalue="Python.socketServer_tcp_server1" />
+      <item itemvalue="Python.twisted_tcp_server" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.ftp_client" />
+      <item itemvalue="Python.nntp_client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.socketServer_tcp_server" />
+        <item itemvalue="Python.nntp_client" />
+        <item itemvalue="Python.ftp_client" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.twisted_tcp_server" />
         <item itemvalue="Python.socketServer_tcp_server1" />
-        <item itemvalue="Python.internet_develop_service" />
-        <item itemvalue="Python.internet_develop_client" />
-        <item itemvalue="Python.regular_expression" />
       </list>
     </recent_temporary>
   </component>
@@ -330,16 +400,48 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="520" width="974" height="527" extended-state="0" />
+    <frame x="953" y="377" width="974" height="670" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56902355" visible="true" weight="0.25929978" />
-      <window_info id="Structure" order="1" sideWeight="0.43097642" side_tool="true" visible="true" weight="0.25929978" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6556604" visible="true" weight="0.26477024" />
+      <window_info id="Structure" order="1" sideWeight="0.23248407" side_tool="true" weight="0.26477024" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24234694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30093458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49906543" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897195" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897195" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897195" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32897195" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945295" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6556604" visible="true" weight="0.26477024" />
+      <window_info id="Structure" order="1" sideWeight="0.23248407" side_tool="true" visible="true" weight="0.26477024" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44935066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,7 +457,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -378,7 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/internet_tcp_client.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/internet_tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
@@ -388,35 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socketServer_tcp_server1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#59#130#0" expanded="true" />
-            <marker date="1565946811558" expanded="true" signature="274:279" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internet_udp_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internet_tcp_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="4" column="11" lean-forward="true" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/internet_udp_service.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/internet_udp_service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
@@ -426,34 +500,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regular_expression.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/socketServer_tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="66">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socketServer_tcp_client1.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/internet_udp_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="115">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_udp/socketServer_tcp_server1_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#59#130#0" expanded="true" />
+            <marker date="1565946811558" expanded="true" signature="274:279" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_udp/socketServer_tcp_client1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
           <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socketServer_tcp_server.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/internet_tcp_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="682">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/protocols/test/test_tls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/protocols/tls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="451" column="25" selection-start-line="451" selection-start-column="20" selection-end-line="451" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/internet/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="486" lean-forward="true" selection-start-line="486" selection-end-line="486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/internet/abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="348" column="27" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/internet/_newtls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="171" selection-start-line="163" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/python/Lib/site-packages/twisted/internet/tcp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1352" column="43" selection-start-line="1352" selection-start-column="43" selection-end-line="1352" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_udp/socketServer_tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="67" />
           <folding>
             <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socketServer_tcp_client.py">
+    <entry file="file://$PROJECT_DIR$/tcp_udp/twisted_tcp_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state>
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regular_expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internet_client/ftp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#38#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp_udp/twisted_tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#45#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internet_client/nntp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

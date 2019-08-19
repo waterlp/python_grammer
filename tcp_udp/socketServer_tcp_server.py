@@ -11,7 +11,6 @@ class MyRequestHandler(SRH):
         print('...connected from:', self.client_address)
         self.wfile.write(('[%s] %s' % (ctime(), self.rfile.readline().decode())).encode())
 
-
 tcpServ = TCP(ADDR, MyRequestHandler)
 print('waiting for connection...')
 tcpServ.serve_forever()
