@@ -2,6 +2,7 @@ import re
 
 s = '233311547573545'
 print(re.match('^233',s).group())
+print(re.search('^233',s).group())
 print(re.match('2',s).group())
 # m = re.match('2333115475735452','[0-9]{1}') 错误的写法，前面写表达式，后面写内容
 m = re.match('2|3',s)    # 匹配正则表达式 re1 或者 re2
@@ -31,6 +32,3 @@ print(re.findall('(?i)test',s))
 # print(re.findall('test',s,re.i))
 print(re.findall('test',s,re.IGNORECASE))
 
-m, n = '111'
-print(m)
-print(n)

@@ -18,8 +18,9 @@ def handle_client(client_socket):
     response_headers = "HTTP/1.1 200 OK\r\n"  # 200 表示找到这个资源
     response_headers += "\r\n"  # 空一行与body隔开
     #使用正则匹配出文件路径
+    print('111111111111111111111111111111111111')
     print("--------",request_header_lines[0])
-    print("file_path------>","./html/"+re.match(r"[^/]+/{[^\s]*}",request_header_lines[0]).group(1))
+    # print("file_path------>","./html/"+re.match(r"[^/]+/{[^\s]*}",request_header_lines[0]).group(1))
     # 设置内容body
     #    response_body = "<h1>fat boss<h1>\r\n"
     #    response_body += "<h2>come on<h2>\r\n"
