@@ -23,6 +23,7 @@ def digitCounts(k,n):
     return count
 
 
+
 if __name__ == '__main__':
     s = digitCounts(11,1010)
     print(s)

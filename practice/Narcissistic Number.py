@@ -12,6 +12,8 @@ def fun(n):
     max = 10**n
     min = 10**(n-1)
     Narcissistic = []
+    if n == 1:
+        Narcissistic.append(0)
     for num in range(min,max):
         num = str(num)
         sum = 0
@@ -19,10 +21,11 @@ def fun(n):
             sum += int(num[i])**n
         if sum == int(num):
             Narcissistic.append(num)
+
     return  Narcissistic
 
 if __name__ == '__main__':
-    s = fun(1)
+    s = fun(3)
     print(s)
 
 

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" line="20" />
+    <bookmark url="file://$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" line="19" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38368794-17be-4fd0-a745-ac360e16a8b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/practice/二分查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/从 1 到 n 按照下面的规则打印每个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/原地旋转字符串(从左向右旋转).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/合并数组并排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/字符串查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/带最小值操作的栈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/序列号与返序列化（二叉树）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/数组中第k大元素.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/Narcissistic Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Narcissistic Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +24,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_grammer$Narcissistic_Number.coverage" NAME="Narcissistic Number Coverage Results" MODIFIED="1567037007790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/study_grammer$listdir.coverage" NAME="listdir Coverage Results" MODIFIED="1566285624699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/study_grammer$test.coverage" NAME="test Coverage Results" MODIFIED="1566207338635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_grammer$pfaGUI1.coverage" NAME="pfaGUI1 Coverage Results" MODIFIED="1566285295112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server1.coverage" NAME="socketServer_tcp_server1 Coverage Results" MODIFIED="1566178689302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server.coverage" NAME="socketServer_tcp_server Coverage Results" MODIFIED="1566178616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_grammer$regular_expression.coverage" NAME="regular_expression Coverage Results" MODIFIED="1566460941033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_grammer$internet_develop_service.coverage" NAME="internet_develop_service Coverage Results" MODIFIED="1565942627255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/study_grammer$nntp_client.coverage" NAME="nntp_client Coverage Results" MODIFIED="1566203018235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/internet_client" />
+    <SUITE FILE_PATH="coverage/study_grammer$Narcissistic_Number.coverage" NAME="Narcissistic Number Coverage Results" MODIFIED="1567040897209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/study_grammer$_1__n_.coverage" NAME="从 1 到 n 按照下面的规则打印每个数 Coverage Results" MODIFIED="1567057558788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/study_grammer$tkhello4.coverage" NAME="tkhello4 Coverage Results" MODIFIED="1566284900624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/study_grammer$server1.coverage" NAME="server1 Coverage Results" MODIFIED="1566459593043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_server" />
+    <SUITE FILE_PATH="coverage/study_grammer$1.coverage" NAME="输入1个数计算在区间范围出现次数 Coverage Results" MODIFIED="1567040593113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/study_grammer$__.coverage" NAME="原地旋转字符串(从左向右旋转) Coverage Results" MODIFIED="1567054046313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/study_grammer$te.coverage" NAME="te Coverage Results" MODIFIED="1566465354170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$tkhello2.coverage" NAME="tkhello2 Coverage Results" MODIFIED="1566283391691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/study_grammer$internet_develop_client.coverage" NAME="internet_develop_client Coverage Results" MODIFIED="1565942580125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_grammer$Narcissistic_Number.coverage" NAME="Narcissistic Number Coverage Results" MODIFIED="1567037007790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/study_grammer$pfaGUI1.coverage" NAME="pfaGUI1 Coverage Results" MODIFIED="1566285295112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server1.coverage" NAME="socketServer_tcp_server1 Coverage Results" MODIFIED="1566178689302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$socketServer_tcp_server.coverage" NAME="socketServer_tcp_server Coverage Results" MODIFIED="1566178616911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/study_grammer$k.coverage" NAME="数组中第k大元素 Coverage Results" MODIFIED="1567043695146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/study_grammer$.coverage" NAME="二分查找 Coverage Results" MODIFIED="1567067954608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/study_grammer$pfaGUI2.coverage" NAME="pfaGUI2 Coverage Results" MODIFIED="1566272130144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/study_grammer$tkhello1.coverage" NAME="tkhello1 Coverage Results" MODIFIED="1566281979962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/study_grammer$twisted_tcp_server.coverage" NAME="twisted_tcp_server Coverage Results" MODIFIED="1566185561421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -33,49 +51,47 @@
     <SUITE FILE_PATH="coverage/python_grammer$1.coverage" NAME="输入1个数计算在区间范围出现次数 Coverage Results" MODIFIED="1567000513582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/python_grammer$.coverage" NAME="丑数 Coverage Results" MODIFIED="1567034214000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
     <SUITE FILE_PATH="coverage/study_grammer$tkhello3.coverage" NAME="tkhello3 Coverage Results" MODIFIED="1566283560542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/study_grammer$te.coverage" NAME="te Coverage Results" MODIFIED="1566465354170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/study_grammer$tkhello2.coverage" NAME="tkhello2 Coverage Results" MODIFIED="1566283391691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/study_grammer$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1566201287234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/internet_client" />
-    <SUITE FILE_PATH="coverage/study_grammer$internet_develop_client.coverage" NAME="internet_develop_client Coverage Results" MODIFIED="1565942580125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1864663790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="65" />
+          <entry key="py" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="65" />
+          <entry key="Python" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="49" />
           <entry key="dummy" value="28" />
-          <entry key="py" value="3253" />
+          <entry key="py" value="5007" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="Python" value="3302" />
+          <entry key="Python" value="5056" />
         </counts>
       </usages-collector>
     </session>
@@ -113,39 +129,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/te.py">
+        <entry file="file://$PROJECT_DIR$/practice/Narcissistic Number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="396">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/数组中第k大元素.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1567043695091" expanded="true" signature="34:39" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/n阶乘0个数.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/practice/合并数组并排序.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="26" selection-start-line="1" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <marker date="1567044281399" expanded="true" signature="27:32" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py">
+        <entry file="file://$PROJECT_DIR$/practice/序列号与返序列化（二叉树）.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="528">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/原地旋转字符串(从左向右旋转).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <marker date="1567054129828" expanded="true" signature="29:30" ph="..." />
+                <marker date="1567054129828" expanded="true" signature="29:34" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/从 1 到 n 按照下面的规则打印每个数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <marker date="1567057555139" expanded="true" signature="229:234" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/带最小值操作的栈.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <marker date="1567062069158" expanded="true" signature="39:44" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="39:48" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="217:222" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="217:226" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="354:359" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="354:363" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="597:602" ph="..." />
+                <marker date="1567062069158" expanded="true" signature="597:606" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/字符串查找.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <marker date="1567064052721" expanded="true" signature="28:448" ph="..." />
+                <marker date="1567064052721" expanded="true" signature="28:450" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/Narcissistic Number.py">
+        <entry file="file://$PROJECT_DIR$/practice/二分查找.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding>
-                <marker date="1567037007752" expanded="true" signature="198:203" ph="..." />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -153,11 +239,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/丑数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1135">
+            <state relative-caret-position="1210">
               <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-              <folding>
-                <marker date="1567005106678" expanded="true" signature="23:32" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -211,9 +294,17 @@
         <option value="$PROJECT_DIR$/web_server/server1.py" />
         <option value="$PROJECT_DIR$/regular_expression.py" />
         <option value="$PROJECT_DIR$/te.py" />
-        <option value="$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" />
         <option value="$PROJECT_DIR$/practice/丑数.py" />
+        <option value="$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" />
         <option value="$PROJECT_DIR$/practice/Narcissistic Number.py" />
+        <option value="$PROJECT_DIR$/practice/数组中第k大元素.py" />
+        <option value="$PROJECT_DIR$/practice/合并数组并排序.py" />
+        <option value="$PROJECT_DIR$/practice/序列号与返序列化（二叉树）.py" />
+        <option value="$PROJECT_DIR$/practice/原地旋转字符串(从左向右旋转).py" />
+        <option value="$PROJECT_DIR$/practice/从 1 到 n 按照下面的规则打印每个数.py" />
+        <option value="$PROJECT_DIR$/practice/带最小值操作的栈.py" />
+        <option value="$PROJECT_DIR$/practice/字符串查找.py" />
+        <option value="$PROJECT_DIR$/practice/二分查找.py" />
       </list>
     </option>
   </component>
@@ -223,34 +314,33 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="107" />
+    <option name="width" value="974" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="python_grammer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_grammer" type="462c0819:PsiDirectoryNode" />
+              <item name="study_grammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_grammer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="python_grammer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_grammer" type="462c0819:PsiDirectoryNode" />
+              <item name="study_grammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_grammer" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,8 +374,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Narcissistic Number">
-    <configuration name="丑数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.原地旋转字符串(从左向右旋转)">
+    <configuration name="从 1 到 n 按照下面的规则打印每个数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +388,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/丑数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/从 1 到 n 按照下面的规则打印每个数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,7 +397,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="输入1个数计算在区间范围出现次数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="带最小值操作的栈" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,7 +410,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/带最小值操作的栈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +419,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Narcissistic Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,7 +432,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/Narcissistic Number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/二分查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,7 +441,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regular_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="字符串查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,12 +449,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regular_expression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/字符串查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,7 +463,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="te" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="原地旋转字符串(从左向右旋转)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_grammer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,12 +471,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/te.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/原地旋转字符串(从左向右旋转).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,19 +486,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.te" />
-      <item itemvalue="Python.regular_expression" />
-      <item itemvalue="Python.输入1个数计算在区间范围出现次数" />
-      <item itemvalue="Python.丑数" />
-      <item itemvalue="Python.Narcissistic Number" />
+      <item itemvalue="Python.原地旋转字符串(从左向右旋转)" />
+      <item itemvalue="Python.从 1 到 n 按照下面的规则打印每个数" />
+      <item itemvalue="Python.带最小值操作的栈" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Narcissistic Number" />
-        <item itemvalue="Python.丑数" />
-        <item itemvalue="Python.输入1个数计算在区间范围出现次数" />
-        <item itemvalue="Python.te" />
-        <item itemvalue="Python.regular_expression" />
+        <item itemvalue="Python.带最小值操作的栈" />
+        <item itemvalue="Python.从 1 到 n 按照下面的规则打印每个数" />
+        <item itemvalue="Python.原地旋转字符串(从左向右旋转)" />
       </list>
     </recent_temporary>
   </component>
@@ -457,16 +543,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="107" y="0" width="974" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7162726" visible="true" weight="0.18390192" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7162726" visible="true" weight="0.39059082" />
       <window_info id="Structure" order="1" sideWeight="0.2837274" side_tool="true" weight="0.18390192" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21932682" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3170467" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18859649" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36065573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3279743" />
@@ -516,6 +602,17 @@
     <MESSAGE value="提交ftp \nntp \twisted" />
     <MESSAGE value="提交server" />
     <option name="LAST_COMMIT_MESSAGE" value="提交server" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/practice/Narcissistic Number.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/program/python/Lib/codecs.py" />
@@ -655,23 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/te.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server/server2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
           <caret line="41" column="37" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,19 +791,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/丑数.py">
+    <entry file="file://$PROJECT_DIR$/te.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <marker date="1567005106678" expanded="true" signature="23:32" ph="..." />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -731,18 +806,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/输入1个数计算在区间范围出现次数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="220">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1697915375/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="534" column="23" selection-start-line="534" selection-start-column="23" selection-end-line="534" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/Narcissistic Number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/数组中第k大元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <marker date="1567037007752" expanded="true" signature="198:203" ph="..." />
+            <marker date="1567043695091" expanded="true" signature="34:39" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/合并数组并排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="1" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1567044281399" expanded="true" signature="27:32" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/序列号与返序列化（二叉树）.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/原地旋转字符串(从左向右旋转).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1567054129828" expanded="true" signature="29:30" ph="..." />
+            <marker date="1567054129828" expanded="true" signature="29:34" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/从 1 到 n 按照下面的规则打印每个数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1567057555139" expanded="true" signature="229:234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/带最小值操作的栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1567062069158" expanded="true" signature="39:44" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="39:48" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="217:222" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="217:226" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="354:359" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="354:363" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="597:602" ph="..." />
+            <marker date="1567062069158" expanded="true" signature="597:606" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/字符串查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <marker date="1567064052721" expanded="true" signature="28:448" ph="..." />
+            <marker date="1567064052721" expanded="true" signature="28:450" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/丑数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/二分查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
